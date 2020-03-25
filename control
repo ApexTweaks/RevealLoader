@@ -1,0 +1,9 @@
+Package: com.apextweaks.revealloader
+Name: RevealLoader
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: ApexTweaks & Tr1Fecta
+Author: ApexTweaks & Tr1Fecta
+Section: Tweaks
