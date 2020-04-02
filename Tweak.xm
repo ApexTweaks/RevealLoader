@@ -1,5 +1,10 @@
 #include <dlfcn.h>
-
+%hook SpringBoard
+- (NSInteger)applicationIconBadgeNumber
+{
+    return 0;
+}
+%end
 %ctor 
 {
 	NSDictionary *prefs = [NSDictionary dictionaryWithContentsOfFile:@"/var/mobile/Library/Preferences/com.rheard.RHRevealLoader.plist"];
